@@ -95,21 +95,85 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+    background: #f84673;
+}
 
+.splash-container {
+    z-index: 1;
+    overflow: hidden;
+    /* The following styles are required for the "scroll-over" effect */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /*position: fixed !important;*/
+}
 
+.splash {
+    /* absolute center .splash within .splash-container */
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    position: absolute;
+    top: 10px; left: 0; bottom: 0; right: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
 
+/* This is the main heading that appears on the blue section */
+.splash-head {
+    /*background: #ccc;*/
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    /*color: white;*/
+    /*border: 3px solid white;*/
+    /*padding: 1em 1.6em;*/
+    /*font-weight: 100;*/
+    /*border-radius: 5px;*/
+    /*line-height: 1em;*/
+}
 
+/* This is the subheading that appears on the blue section */
+.splash-subhead {
+    color: white;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+    font-family: 'Orbitron', sans-serif;
+}
 
+.splash-head img {
+    width: 100%;
+    max-width: 800px;
+}
 
+.splash-head video {
+    width: 100%;
+}
 
+.badge-google-play img {
+    width: 20vw;
+    max-width: 300px;
+}
 
+.splash iframe {
+    width: 800px;
+    height: 600px;
+    /* iframe's frameborder tag should be enough though*/
+    border: 0;
+}
 
+.social .fa-circle {
+    color: #bd3657;
+}
 
-
-
-
-
-
+.social .fa-envelope {
+    color: #f84673;
+}
+.social .fa-twitter {
+    color: #f84673;
+}
 
 /* ==========================================================================
    Helper classes
