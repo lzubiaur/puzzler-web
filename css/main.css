@@ -96,7 +96,13 @@ textarea {
    ========================================================================== */
 
 html {
-    background: #f84673;
+    /*background: #000;*/
+}
+
+body {
+  background: #000;
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat-y repeat-x;
 }
 
 .splash-container {
@@ -179,14 +185,14 @@ html {
 }
 
 .social .fa-circle {
-    color: #bd3657;
+    color: #fff;
 }
 
 .social .fa-envelope {
-    color: #f84673;
+    color: #000;
 }
 .social .fa-twitter {
-    color: #f84673;
+    color: #000;
 }
 
 /* ==========================================================================
